@@ -14,7 +14,7 @@ from cort.coreference import experiments
 from cort.coreference import features
 from cort.coreference import instance_extractors
 from cort.util import import_helper
-
+from cort.coreference.approaches.mention_ranking import extract_substructures
 
 def call_cort(text_blob):
 
@@ -70,7 +70,8 @@ def call_cort(text_blob):
     )
 
     extractor = instance_extractors.InstanceExtractor(
-        import_helper.import_from_path(extractor_path),
+        # import_helper.import_from_path(extractor_path),
+        extract_substructures,
         mention_features,
         pairwise_features,
         cost_functions.null_cost,
