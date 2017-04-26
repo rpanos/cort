@@ -51,8 +51,10 @@ def call_cort(text_blob):
 
     # todo make sure these are exact!
     model_abs = '/Users/ryanpanos/Documents/code/cort_experiments/models/model-pair-train+dev.obj'  #OMG evil!
+    # perceptron_path = 'cort.coreference.approaches.mention_ranking.RankingPerceptron'
+    # extractor_path = ' cort.coreference.approaches.mention_ranking.extract_substructures'
     perceptron_path = 'cort.coreference.approaches.mention_ranking.RankingPerceptron'
-    extractor_path = ' cort.coreference.approaches.mention_ranking.extract_substructures'
+    extractor_path = ' coreference.approaches.mention_ranking.extract_substructures'
     corenlp_path = '/Users/ryanpanos/Documents/code/StanfordNLP/stanford-corenlp-full-2016-10-31/'  #OMG evil!
     clusterer_path = 'cort.coreference.clusterer.all_ante'
 
