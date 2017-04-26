@@ -105,6 +105,8 @@ class Document(object):
         annotated_mentions = []
 
         for span in mention_spans:
+
+            print " span: " + str(span)
             set_id = self.coref[span]
             annotated_mentions.append(
                 mentions.Mention.from_document(

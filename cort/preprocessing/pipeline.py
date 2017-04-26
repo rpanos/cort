@@ -30,6 +30,16 @@ class Pipeline():
 
         self.with_coref = with_coref
 
+    def run_on_blob(self, identifier, text_blob):
+        processed_documents = []
+
+        processed_documents.append(self.run_on_doc( # codecs.open(doc, "r", "utf-8")
+            identifier,
+            text_blob
+        ))
+
+        return corpora.Corpus(identifier, processed_documents)
+
     def run_on_docs(self, identifier, docs):
         processed_documents = []
 
