@@ -6,6 +6,7 @@ import logging
 import pickle
 import sys
 
+
 from cort.preprocessing import pipeline
 from cort.core import mention_extractor
 from cort.coreference import cost_functions

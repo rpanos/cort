@@ -7,6 +7,8 @@ import codecs
 import stanford_corenlp_pywrapper
 
 from StanfordDependencies import CoNLL
+# from
+# from StanfordDependencies
 
 from cort.core import corpora, documents, spans
 
@@ -35,7 +37,8 @@ class Pipeline():
 
         processed_documents.append(self.run_on_doc( # codecs.open(doc, "r", "utf-8")
             # identifier,
-            text_blob
+            text_blob,
+            use_as_blob=True
         ))
 
         return corpora.Corpus(identifier, processed_documents)
@@ -50,12 +53,18 @@ class Pipeline():
 
         return corpora.Corpus(identifier, processed_documents)
 
-    def run_on_doc(self, doc_file, name=None):
+    def run_on_doc(self, doc_file, name=None, use_as_blob=False):
         if self.with_coref:
-            soup = bs4.BeautifulSoup(doc_file.read())
+            if use_as_blob:
+                soup = bs4.BeautifulSoup(doc_file)
+            else:
+                soup = bs4.BeautifulSoup(doc_file.read())
             preprocessed = self.proc.parse_doc(soup.text)
         else:
-            data = doc_file.read()
+            if use_as_blob:
+                data = doc_file
+            else:
+                data = doc_file.read()
             preprocessed = self.proc.parse_doc(data)
 
         sentences = []
@@ -121,7 +130,10 @@ class Pipeline():
             )
 
         if not name:
-            name = doc_file.name
+            if hasattr(doc_file, 'name'):
+                name = doc_file.name
+            else:
+                name = 'blob'
 
         if self.with_coref:
             antecedent_decisions = {}
