@@ -116,7 +116,7 @@ class LiveDemo():
 
     def do_coreference(self):
         testing_corpus = corpora.Corpus("input", [self.p.run_on_doc(
-            io.StringIO(self.txt.get("0.0", tki.END)), "input")])
+            io.StringIO(self.txt.get("0.0", tki.END)), "input")])  #??
 
         logging.info("Extracting system mentions.")
         for doc in testing_corpus:

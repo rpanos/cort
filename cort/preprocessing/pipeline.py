@@ -34,7 +34,7 @@ class Pipeline():
         processed_documents = []
 
         processed_documents.append(self.run_on_doc( # codecs.open(doc, "r", "utf-8")
-            identifier,
+            # identifier,
             text_blob
         ))
 
