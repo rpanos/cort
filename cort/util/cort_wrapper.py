@@ -15,6 +15,8 @@ from cort.coreference import features
 from cort.coreference import instance_extractors
 from cort.util import import_helper
 from cort.coreference.approaches.mention_ranking import extract_substructures
+from cort.coreference.approaches.mention_ranking import RankingPerceptron
+from cort.coreference.clusterer import all_ante
 
 def call_cort(text_blob):
 
@@ -63,7 +65,13 @@ def call_cort(text_blob):
     priors, weights = pickle.load(open(model_abs, "rb"))
     print("Model loaded.")
 
-    perceptron = import_helper.import_from_path(perceptron_path)(
+    # perceptron = import_helper.import_from_path(perceptron_path)(
+    #     priors=priors,
+    #     weights=weights,
+    #     cost_scaling=0
+    # )
+
+    perceptron = RankingPerceptron(
         priors=priors,
         weights=weights,
         cost_scaling=0
@@ -91,7 +99,8 @@ def call_cort(text_blob):
         testing_corpus,
         extractor,
         perceptron,
-        import_helper.import_from_path(clusterer_path)
+        # import_helper.import_from_path(clusterer_path)
+        all_ante
     )
 
     testing_corpus.read_coref_decisions(mention_entity_mapping, antecedent_mapping)
