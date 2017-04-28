@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 # from __future__ import print_function  ###???
 import argparse
 import codecs
@@ -121,26 +121,37 @@ def call_cort(text_blob):
 
     return
 
-call_cort("""There are places I'll remember
-            All my life, though some have changed
-            Some forever, not for better
-            Some have gone and some remain
-            All these places have their moments
-            With lovers and friends I still can recall
-            Some are dead and some are living
-            In my life, I've loved them all
+# call_cort("""There are places I'll remember
+#             All my life, though some have changed
+#             Some forever, not for better
+#             Some have gone and some remain
+#             All these places have their moments
+#             With lovers and friends I still can recall
+#             Some are dead and some are living
+#             In my life, I've loved them all
+#
+#             But of all these friends and lovers
+#             There is no one compares with you
+#             And these memories lose their meaning
+#             When I think of love as something new
+#             Though I know I'll never lose affection
+#             For people and things that went before
+#             I know I'll often stop and think about them
+#             In my life, I love you more
+#
+#             Though I know I'll never lose affection
+#             For people and things that went before
+#             I know I'll often stop and think about them
+#             In my life, I love you more
+#             In my life-- I love you more """)
 
-            But of all these friends and lovers
-            There is no one compares with you
-            And these memories lose their meaning
-            When I think of love as something new
-            Though I know I'll never lose affection
-            For people and things that went before
-            I know I'll often stop and think about them
-            In my life, I love you more
 
-            Though I know I'll never lose affection
-            For people and things that went before
-            I know I'll often stop and think about them
-            In my life, I love you more
-            In my life-- I love you more """)
+# call_cort('''
+# Alex Jones, the conspiracist at the helm of the alt-news outlet InfoWars, used an unusual defense in a custody hearing in Texas last week. His ex-wife had accused him of being unstable and dangerous, citing Mr. Jones’s rants on his daily call-in show. (Among his many unconventional stances are that the government staged the Sandy Hook massacre and orchestrated the 9/11 attacks.) Through his attorneys, Mr. Jones countered that his antics are irrelevant to his fitness as a parent, because he is a performance artist whose public behavior is part of his fictional character. In other words, when he tells his audience that Hillary Clinton is running a sex-trafficking operation out of a Washington pizza parlor (an accusation for which he has offered a rare retraction), he is doing so merely for entertainment value.  They will not.  Alex Jones’s audience adores him because of his artifice, not in spite of it. They admire a man who can identify their most primal feelings, validate them, and choreograph their release. To understand this, and to understand the political success of other figures like Donald Trump, it is helpful to know a term from the world of professional wrestling: kayfabe.  Although the etymology of the word is a matter of debate, for at least 50 years “kayfabe” has referred to the unspoken contract between wrestlers and spectators: We’ll present you something clearly fake under the insistence that it’s real, and you will experience genuine emotion. Neither party acknowledges the bargain, or else the magic is ruined.  To a wrestling audience, the fake and the real coexist peacefully. If you ask a fan whether a match or backstage brawl was scripted, the question will seem irrelevant. You may as well ask a roller-coaster enthusiast whether he knows he’s not really on a runaway mine car. The artifice is not only understood but appreciated: The performer cares enough about the viewer’s emotions to want to influence them. Kayfabe isn’t about factual verifiability; it’s about emotional fidelity.
+#
+# Although their athleticism is impressive, skilled wrestlers captivate because they do what sociologists call “emotional labor” — the professional management of other people’s feelings. Diners expect emotional labor from their servers, Hulkamaniacs demand it from their favorite performer, and a whole lot of voters desire it from their leaders.
+#
+# The aesthetic of World Wrestling Entertainment seems to be spreading from the ring to the world stage. Ask an average Trump supporter whether he or she thinks the president actually plans to build a giant wall and have Mexico pay for it, and you might get an answer that boils down to, “I don’t think so, but I believe so.” That’s kayfabe. Chants of “Build the Wall” aren’t about erecting a structure; they’re about how cathartic it feels, in the moment, to yell with venom against a common enemy.
+#
+#
+# ''')
