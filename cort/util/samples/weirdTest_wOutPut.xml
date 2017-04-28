@@ -1,0 +1,45 @@
+<root>
+    WHERE DIS?
+    <mention>
+        blah1
+        <mention>
+            bleeeee 1
+        </mention>
+        blah2
+        <mention>
+                bleeeee 2
+        </mention>
+        balh3
+        <mention>
+                bleeee 3
+        </mention>
+        blah FINAL
+    </mention>
+        big tail
+</root>
+
+
+/Users/ryanpanos/virtualenvs/cort/bin/python /Users/ryanpanos/Documents/code/cort/cort/util/resolve_coref.py
+> WHOLE NODE:
+    <mention>
+        blah1
+        <mention>
+            bleeeee 1
+        </mention>
+        blah2
+        <mention>
+                bleeeee 2
+        </mention>
+        balh3
+        <mention>
+                bleeee 3
+        </mention>
+        blah FINAL
+    </mention>
+        big tail
+
+> tail NODE:
+        big tail
+
+> text NODE:
+        blah1
