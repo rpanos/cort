@@ -294,8 +294,13 @@ xml.etree.ElementTree.tostringlist
 
 '''
 
+
 # test_xml('samples/out2_t1.xml')
 # test_xml('samples/out2_t2.xml')
 # test_xml('samples/out2_t3.xml')
 # test_xml('samples/weirdTest.xml')
 # test_xml('samples/out2.xml')
+# test_xml('samples/out2.xml')
+test_xml('samples/out4.xml')
+# test_xml('samples/weirdTest.xml')
+
