@@ -182,7 +182,6 @@ def accumulate_branch_entities(root, entity_dict_of_lists, is_sub=False):
             print "+++> would now do children: " + str(mention_node.text)
 
             entity_dict_of_lists, accumulated_txt_from_child = accumulate_branch_entities(mention_node, entity_dict_of_lists)
-            # accumulated_txt_for_parent += accumulated_txt_from_child
 
         # Convert this node
         entity_dict_of_lists, node_text = get_entities_this_node(mention_node, accumulated_txt_from_child, entity_dict_of_lists)
@@ -296,7 +295,7 @@ xml.etree.ElementTree.tostringlist
 '''
 
 # test_xml('samples/out2_t1.xml')
-test_xml('samples/out2_t2.xml')
+# test_xml('samples/out2_t2.xml')
 # test_xml('samples/out2_t3.xml')
 # test_xml('samples/weirdTest.xml')
 # test_xml('samples/out2.xml')
