@@ -1,0 +1,307 @@
+
+
+
+
+<root>
+    <notes>
+        id's dont mean anything but a GUID
+        An Antecdent (original?) has entity int but not antecedant ID
+        Proforms have the entity id that it represents AND an antecedant ID
+        NODES without entity or antecednat should just be passed on <-- WHT purpose do they serve?
+
+        antecedant IDs only repeat if they are te exact same (there and there) <-- I THINK
+
+
+
+    </notes>
+
+    <mention id="0" span_start="0" span_end="13" entity="1">Alex Jones , the conspiracist at
+        <mention id="1" span_start="6" span_end="12">the helm of
+            <mention id="2" span_start="9" span_end="12">the alt-news outlet InfoWars</mention>
+        </mention>
+        ,
+    </mention>
+    used <mention id="3" span_start="15" span_end="17">an unusual defense</mention> in <mention id="4" span_start="19"
+                                                                                                span_end="21">a custody
+    hearing
+</mention> in <mention id="5" span_start="23" span_end="23">Texas</mention>
+    <mention id="6" span_start="24" span_end="25">last week</mention> .
+    <mention id="8" span_start="27" span_end="28">
+        <mention id="7" span_start="27" span_end="27" entity="1" antecedent="0">His</mention>
+        ex-wife
+    </mention>
+    had accused <mention id="9" span_start="31" span_end="36" entity="1" antecedent="7">him of being unstable and
+    dangerous
+</mention> , citing
+    <mention id="11" span_start="39" span_end="42">
+        <mention id="10" span_start="39" span_end="41" entity="1" antecedent="0">Mr. Jones 's</mention>
+        rants
+    </mention>
+    on
+    <mention id="13" span_start="44" span_end="47">
+        <mention id="12" span_start="44" span_end="44" entity="1" antecedent="7">his</mention>
+        daily call-in show
+    </mention>
+    .
+    -LRB- Among
+    <mention id="15" span_start="51" span_end="68">
+        <mention id="14" span_start="51" span_end="51" entity="1" antecedent="12">his</mention>
+        many unconventional stances are that <mention id="16" span_start="57" span_end="58">the government</mention> staged
+        <mention id="17" span_start="60" span_end="63">the <mention id="18" span_start="61" span_end="62">Sandy Hook
+        </mention> massacre
+        </mention>
+        and orchestrated
+        <mention id="19" span_start="66" span_end="68">the <mention id="20" span_start="67" span_end="67">9/11</mention> attacks
+        </mention>
+    </mention>
+    . -RRB-
+    Through
+    <mention id="22" span_start="72" span_end="73">
+        <mention id="21" span_start="72" span_end="72" entity="1" antecedent="14">his</mention>
+        attorneys
+    </mention>
+    , <mention id="23" span_start="75" span_end="76" entity="1" antecedent="10">Mr. Jones</mention> countered that
+    <mention id="25" span_start="79" span_end="80">
+        <mention id="24" span_start="79" span_end="79" entity="1" antecedent="21">his</mention>
+        antics
+    </mention>
+    are irrelevant to
+    <mention id="27" span_start="84" span_end="88">
+        <mention id="26" span_start="84" span_end="84" entity="1" antecedent="21">his</mention>
+        fitness as
+        <mention id="28" span_start="87" span_end="88">a parent</mention>
+    </mention>
+    , because <mention id="29" span_start="91" span_end="91" entity="1" antecedent="21">he</mention> is
+    <mention id="30" span_start="93" span_end="104">a performance artist whose public behavior is
+        <mention id="31" span_start="100" span_end="104">part of
+            <mention id="33" span_start="102" span_end="104">
+                <mention id="32" span_start="102" span_end="102" entity="1" antecedent="21">his</mention>
+                fictional character
+            </mention>
+        </mention>
+    </mention>
+    .
+    In <mention id="34" span_start="107" span_end="108">other words</mention> , when <mention id="35" span_start="111"
+                                                                                              span_end="111" entity="1"
+                                                                                              antecedent="32">he
+</mention> tells
+    <mention id="37" span_start="113" span_end="114">
+        <mention id="36" span_start="113" span_end="113" entity="1" antecedent="35">his</mention>
+        audience
+    </mention>
+    that <mention id="38" span_start="116" span_end="117" entity="1" antecedent="26">Hillary Clinton</mention> is
+    running <mention id="39" span_start="120" span_end="122">a sex-trafficking operation</mention> out of
+    <mention id="40" span_start="125" span_end="140">a <mention id="41" span_start="126" span_end="126">Washington
+    </mention> pizza parlor -LRB-
+        <mention id="42" span_start="130" span_end="139">an accusation for which <mention id="43" span_start="134"
+                                                                                          span_end="134" entity="1"
+                                                                                          antecedent="35">he
+        </mention> has offered
+            <mention id="44" span_start="137" span_end="139">a rare retraction</mention>
+        </mention>
+        -RRB-
+    </mention>
+    , <mention id="45" span_start="142" span_end="142" entity="1" antecedent="35">he</mention> is doing so merely for <mention
+        id="46" span_start="148" span_end="149">entertainment value
+</mention> .
+    <mention id="47" span_start="151" span_end="151" entity="48">They</mention>
+    will not .
+    <mention id="49" span_start="155" span_end="158">
+        <mention id="48" span_start="155" span_end="157" entity="1" antecedent="0">Alex Jones 's</mention>
+        audience
+    </mention>
+    adores <mention id="50" span_start="160" span_end="160" entity="1" antecedent="36">him</mention> because of
+    <mention id="52" span_start="163" span_end="164" entity="53">
+        <mention id="51" span_start="163" span_end="163" entity="1" antecedent="50">his</mention>
+        artifice
+    </mention>
+    , not in
+    <mention id="53" span_start="168" span_end="170">spite of
+        <mention id="54" span_start="170" span_end="170" entity="53" antecedent="52">it</mention>
+    </mention>
+    .
+    <mention id="55" span_start="172" span_end="172" entity="48" antecedent="47">They</mention>
+    admire
+    <mention id="56" span_start="174" span_end="185">a man who can identify
+        <mention id="58" span_start="179" span_end="182">
+            <mention id="57" span_start="179" span_end="179" entity="48" antecedent="55">their</mention>
+            most primal feelings
+        </mention>
+        , validate
+        <mention id="59" span_start="185" span_end="185" entity="48" antecedent="57">them</mention>
+    </mention>
+    , and choreograph
+    <mention id="61" span_start="189" span_end="190">
+        <mention id="60" span_start="189" span_end="189" entity="48" antecedent="55">their</mention>
+        release
+    </mention>
+    .
+    To understand <mention id="62" span_start="194" span_end="194" entity="63">this</mention> , and to understand
+    <mention id="63" span_start="199" span_end="204">the political success of
+        <mention id="64" span_start="203" span_end="204">other figures</mention>
+    </mention>
+    like <mention id="65" span_start="206" span_end="207" entity="66">Donald Trump</mention> , <mention id="66"
+                                                                                                        span_start="209"
+                                                                                                        span_end="209"
+                                                                                                        entity="63"
+                                                                                                        antecedent="62">
+    it
+</mention> is helpful to know <mention id="67" span_start="214" span_end="215">a term</mention> from
+    <mention id="68" span_start="217" span_end="223">the world of
+        <mention id="69" span_start="220" span_end="223" entity="70">professional wrestling : kayfabe</mention>
+    </mention>
+    .
+    Although
+    <mention id="70" span_start="226" span_end="230" entity="71">the etymology of
+        <mention id="71" span_start="229" span_end="230">the word</mention>
+    </mention>
+    is
+    <mention id="72" span_start="232" span_end="235">a matter of
+        <mention id="73" span_start="235" span_end="235">debate</mention>
+    </mention>
+    , for <mention id="74" span_start="238" span_end="241">at least 50 years</mention> `` <mention id="75"
+                                                                                                   span_start="243"
+                                                                                                   span_end="243">
+    kayfabe
+</mention> '' has referred to
+    <mention id="76" span_start="248" span_end="254">the unspoken contract between
+        <mention id="77" span_start="252" span_end="254">wrestlers and spectators</mention>
+    </mention>
+    : <mention id="78" span_start="256" span_end="256">We</mention> 'll <mention id="79" span_start="258"
+                                                                                 span_end="258">present
+</mention>
+    <mention id="80" span_start="259" span_end="259" entity="81">you</mention>
+    <mention id="81" span_start="260" span_end="262">something clearly fake</mention> under <mention id="82"
+                                                                                                     span_start="264"
+                                                                                                     span_end="265">the
+    insistence
+</mention> that <mention id="83" span_start="267" span_end="267" entity="71" antecedent="70">it</mention> 's real , and <mention
+        id="84" span_start="272" span_end="272" entity="81" antecedent="80">you
+</mention> will experience <mention id="85" span_start="275" span_end="276">genuine emotion</mention> .
+    <mention id="86" span_start="278" span_end="279">Neither party</mention>
+    acknowledges <mention id="87" span_start="281" span_end="282">the bargain</mention> , or <mention id="88"
+                                                                                                      span_start="285"
+                                                                                                      span_end="287">
+    else the magic
+</mention> is ruined .
+    To <mention id="89" span_start="292" span_end="294">a wrestling audience</mention> , <mention id="90"
+                                                                                                  span_start="296"
+                                                                                                  span_end="300">the
+    fake and the real
+</mention> coexist peacefully .
+    If <mention id="91" span_start="305" span_end="305" entity="81" antecedent="80">you</mention> ask <mention id="92"
+                                                                                                               span_start="307"
+                                                                                                               span_end="308">
+    a fan
+</mention> whether
+    <mention id="94" span_start="310" span_end="314">
+        <mention id="93" span_start="310" span_end="311">a match</mention>
+        or
+        <mention id="95" span_start="313" span_end="314">backstage brawl</mention>
+    </mention>
+    was scripted , <mention id="96" span_start="318" span_end="319">the question</mention> will seem irrelevant .
+    <mention id="97" span_start="324" span_end="324" entity="81" antecedent="91">You</mention>
+    may as well ask <mention id="98" span_start="329" span_end="331" entity="99">a roller-coaster enthusiast</mention> whether <mention
+        id="99" span_start="333" span_end="333" entity="99" antecedent="98">he
+</mention> knows <mention id="100" span_start="335" span_end="335" entity="99" antecedent="99">he</mention> 's not
+    really on <mention id="101" span_start="340" span_end="343">a runaway mine car</mention> .
+    <mention id="102" span_start="345" span_end="346" entity="53" antecedent="52">The artifice</mention>
+    is not only understood but appreciated : The performer cares enough about
+    <mention id="104" span_start="359" span_end="362">
+        <mention id="103" span_start="359" span_end="361" entity="99" antecedent="100">the viewer 's</mention>
+        emotions
+    </mention>
+    to want to influence <mention id="105" span_start="367" span_end="367">them</mention> .
+    <mention id="106" span_start="369" span_end="369" entity="70" antecedent="69">Kayfabe</mention>
+    is n't about <mention id="107" span_start="373" span_end="374">factual verifiability</mention> ; <mention id="108"
+                                                                                                              span_start="376"
+                                                                                                              span_end="376"
+                                                                                                              entity="70"
+                                                                                                              antecedent="106">
+    it
+</mention> 's about <mention id="109" span_start="379" span_end="380">emotional fidelity</mention> .
+    Although
+    <mention id="111" span_start="383" span_end="384">
+        <mention id="110" span_start="383" span_end="383" entity="111">their</mention>
+        athleticism
+    </mention>
+    is impressive , <mention id="112" span_start="388" span_end="389">skilled wrestlers</mention> captivate because <mention
+        id="113" span_start="392" span_end="392" entity="111" antecedent="110">they
+</mention> do what <mention id="114" span_start="395" span_end="395">sociologists</mention> call
+    <mention id="115" span_start="397" span_end="409">`` emotional labor '' --
+        <mention id="116" span_start="402" span_end="409">the professional management of
+            <mention id="118" span_start="406" span_end="409">
+                <mention id="117" span_start="406" span_end="408">other people 's</mention>
+                feelings
+            </mention>
+        </mention>
+    </mention>
+    .
+    <mention id="119" span_start="411" span_end="411" entity="120">Diners</mention>
+    expect
+    <mention id="120" span_start="413" span_end="420">emotional labor from
+        <mention id="122" span_start="416" span_end="420">
+            <mention id="121" span_start="416" span_end="416" entity="120" antecedent="119">their</mention>
+            servers ,
+            <mention id="123" span_start="419" span_end="420">Hulkamaniacs demand</mention>
+        </mention>
+    </mention>
+    <mention id="124" span_start="421" span_end="421" entity="125">it</mention> from
+    <mention id="126" span_start="423" span_end="425">
+        <mention id="125" span_start="423" span_end="423" entity="120" antecedent="121">their</mention>
+        favorite performer
+    </mention>
+    , and
+    <mention id="127" span_start="428" span_end="432">a whole lot of
+        <mention id="128" span_start="432" span_end="432">voters</mention>
+    </mention>
+    desire <mention id="129" span_start="434" span_end="434" entity="125" antecedent="124">it</mention> from
+    <mention id="131" span_start="436" span_end="437">
+        <mention id="130" span_start="436" span_end="436" entity="120" antecedent="119">their</mention>
+        leaders
+    </mention>
+    .
+    The aesthetic of <mention id="132" span_start="442" span_end="444">World Wrestling Entertainment</mention> seems to
+    be spreading from <mention id="133" span_start="450" span_end="451">the ring</mention> to <mention id="134"
+                                                                                                       span_start="453"
+                                                                                                       span_end="455">
+    the world stage
+</mention> .
+    Ask
+    <mention id="135" span_start="458" span_end="461">an average <mention id="136" span_start="460" span_end="460"
+                                                                          entity="66" antecedent="65">Trump
+    </mention> supporter
+    </mention>
+    whether <mention id="137" span_start="463" span_end="465">he or she</mention> thinks <mention id="138"
+                                                                                                  span_start="467"
+                                                                                                  span_end="468"
+                                                                                                  entity="1"
+                                                                                                  antecedent="14">the
+    president
+</mention> actually plans to build <mention id="139" span_start="473" span_end="475" entity="140">a giant wall</mention> and
+    have
+    <mention id="141" span_start="478" span_end="481">
+        <mention id="140" span_start="478" span_end="478">Mexico</mention>
+        pay for
+        <mention id="142" span_start="481" span_end="481" entity="140" antecedent="139">it</mention>
+    </mention>
+    , and <mention id="143" span_start="484" span_end="484" entity="81" antecedent="80">you</mention> might get <mention
+        id="144" span_start="487" span_end="492">an answer that boils down to
+</mention> , `` <mention id="145" span_start="495" span_end="495" entity="146">I</mention> do n't think so , but <mention
+        id="146" span_start="502" span_end="502" entity="146" antecedent="145">I
+</mention> believe so . ''
+    <mention id="147" span_start="507" span_end="507">That</mention>
+    's <mention id="148" span_start="509" span_end="509" entity="70" antecedent="106">kayfabe</mention> .
+    <mention id="149" span_start="511" span_end="517" entity="150">Chants of `` Build <mention id="150" span_start="515"
+                                                                                               span_end="516">the Wall
+    </mention> ''
+    </mention>
+    are n't about erecting <mention id="151" span_start="522" span_end="523" entity="152">a structure</mention> ; <mention
+        id="152" span_start="525" span_end="525" entity="150" antecedent="149">they
+</mention> 're about how cathartic <mention id="153" span_start="530" span_end="530" entity="152" antecedent="151">it
+</mention> feels , in <mention id="154" span_start="534" span_end="535">the moment</mention> , to yell with
+    <mention id="155" span_start="540" span_end="544">venom against
+        <mention id="156" span_start="542" span_end="544">a common enemy</mention>
+    </mention>
+    .
+</root>

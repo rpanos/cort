@@ -1,0 +1,622 @@
+<notes>
+    entity="62"
+    case study findings is mentioned SECOND but does not have the not-antecedant
+    ==> might be a bad example but shows we shoudl not DELETE anything
+
+
+</notes>
+
+
+
+
+<mention id="0" span_start="0" span_end="2" entity="1">Software development projects</mention> are infamous for <mention
+id="1" span_start="6" span_end="10">missed deadlines and budget overruns
+</mention> .
+<mention id="2" span_start="12" span_end="12" entity="1" antecedent="0">These</mention> are often caused by <mention
+id="3" span_start="17" span_end="20">unexpected issues and obstacles
+</mention> <mention id="4" span_start="21" span_end="21" entity="5">we</mention> prefer to think of as <mention id="5"
+                                                                                                                span_start="27"
+                                                                                                                span_end="27"
+                                                                                                                entity="6">
+anti-patterns
+</mention> .
+<mention id="6" span_start="29" span_end="32">The software development process</mention> is expected to follow <mention
+id="7" span_start="37" span_end="43">a short list of
+<mention id="8" span_start="41" span_end="43">accepted processes patterns</mention>
+</mention> but often does not .
+<mention id="9" span_start="49" span_end="54" entity="10">Any attempt to reduce
+<mention id="10" span_start="53" span_end="54" entity="6" antecedent="5">these anti-patterns</mention>
+</mention> will improve <mention id="11" span_start="57" span_end="57">workflow</mention> and reduce <mention id="12"
+                                                                                                              span_start="60"
+                                                                                                              span_end="62">
+delays or cost
+</mention> over <mention id="13" span_start="64" span_end="64">runs</mention> .
+<mention id="14" span_start="66" span_end="66">This</mention> is why <mention id="15" span_start="69" span_end="74">many
+research topics in
+<mention id="16" span_start="73" span_end="74">Software Engineering</mention>
+</mention> can be boiled down to <mention id="17" span_start="80" span_end="81" entity="10" antecedent="9">this
+attempt
+</mention> at understanding <mention id="18" span_start="84" span_end="84">hindrances</mention> to <mention id="19"
+                                                                                                            span_start="86"
+                                                                                                            span_end="87">
+optimal workflow
+</mention> .
+<mention id="20" span_start="89" span_end="89" entity="5" antecedent="4">We</mention> set out to contribute to <mention
+id="21" span_start="95" span_end="100">more than <mention id="22" span_start="97" span_end="97" entity="23">one
+</mention> of
+<mention id="23" span_start="99" span_end="100" entity="1" antecedent="2">these areas</mention>
+</mention> .
+        To do so , <mention id="24" span_start="106" span_end="106">there</mention> were <mention id="25"
+                                                                                                  span_start="108"
+                                                                                                  span_end="123">many
+established approaches <mention id="26" span_start="111" span_end="111" entity="5" antecedent="20">we</mention> could
+have taken such as
+<mention id="28" span_start="117" span_end="123">
+    <mention id="27" span_start="117" span_end="117">surveys</mention>
+    , <mention id="29" span_start="119" span_end="120">simulation modeling</mention> and
+    <mention id="30" span_start="122" span_end="123" entity="31">scientific experiments</mention>
+</mention>
+</mention> .
+<mention id="31" span_start="125" span_end="125" entity="5" antecedent="20">We</mention> opted to avoid <mention id="32"
+                                                                                                                 span_start="129"
+                                                                                                                 span_end="129">
+surveys
+</mention> as <mention id="33" span_start="131" span_end="132">perceived processes</mention> are often <mention id="34"
+                                                                                                                span_start="135"
+                                                                                                                span_end="155">
+not the real processes that are taking
+<mention id="35" span_start="142" span_end="155">place -LRB-
+    <mention id="37" span_start="144" span_end="154">
+        <mention id="36" span_start="144" span_end="145">W. Van</mention>
+        <mention id="38" span_start="146" span_end="154">Der Aalst , <mention id="39" span_start="149" span_end="149">
+            Weijters
+        </mention> , &
+            <mention id="40" span_start="152" span_end="154">Maruster ,
+                <mention id="41" span_start="154" span_end="154">2004</mention>
+            </mention>
+        </mention>
+    </mention>
+    -RRB-
+</mention>
+</mention> .
+<mention id="42" span_start="157" span_end="158" entity="31" antecedent="30">Scientific experiments
+</mention> might provide <mention id="43" span_start="161" span_end="162">stronger data</mention> but <mention id="44"
+                                                                                                               span_start="164"
+                                                                                                               span_end="164"
+                                                                                                               entity="31"
+                                                                                                               antecedent="42">
+they
+</mention> are usually very expensive to carry out -LRB- <mention id="45" span_start="173" span_end="175">Zelkowitz &
+Wallace
+</mention> , <mention id="46" span_start="177" span_end="177">1997</mention> -RRB- -LRB- <mention id="47"
+                                                                                                  span_start="180"
+                                                                                                  span_end="187">Ur ,
+<mention id="49" span_start="182" span_end="186">
+    <mention id="48" span_start="182" span_end="182">Yom-tov</mention>
+    , & <mention id="50" span_start="185" span_end="185">Wernick</mention> ,
+</mention>
+<mention id="51" span_start="187" span_end="187">2007</mention>
+</mention> -RRB- in <mention id="52" span_start="190" span_end="193">the software development environment
+</mention> primarily due to <mention id="53" span_start="197" span_end="204">the value placed on
+<mention id="55" span_start="201" span_end="204">
+    <mention id="54" span_start="201" span_end="203">an engineer 's</mention>
+    time
+</mention>
+</mention> .
+<mention id="56" span_start="206" span_end="207">Simulation models</mention> are often <mention id="57" span_start="210"
+                                                                                                span_end="212">the
+popular alternative
+</mention> but many are not sufficiently based on <mention id="58" span_start="220" span_end="221">hard data</mention> .
+<mention id="59" span_start="223" span_end="223">This</mention> leaves <mention id="60" span_start="225" span_end="226"
+                                                                                entity="61">case studies
+</mention> .
+        However , despite <mention id="62" span_start="231" span_end="246">
+<mention id="61" span_start="231" span_end="231" entity="62">their</mention>
+popularity in
+<mention id="63" span_start="234" span_end="246" entity="64">Software Engineering research -LRB-
+    <mention id="64" span_start="238" span_end="245">Bai ,
+        <mention id="66" span_start="240" span_end="244">
+            <mention id="65" span_start="240" span_end="240">Zhang</mention>
+            , & <mention id="67" span_start="243" span_end="243">Huang</mention> ,
+        </mention>
+        <mention id="68" span_start="245" span_end="245">2011</mention>
+    </mention>
+    -RRB-
+</mention>
+</mention> , <mention id="69" span_start="248" span_end="250" entity="62" antecedent="61">case study findings
+</mention> have been criticized as not readily generalizable -LRB- <mention id="70" span_start="259" span_end="259">
+Tsang
+</mention> , <mention id="71" span_start="261" span_end="261">2014</mention> -RRB- at least in <mention id="72"
+                                                                                                        span_start="266"
+                                                                                                        span_end="266">
+part
+</mention> because <mention id="73" span_start="268" span_end="277">the `` sample size in
+<mention id="74" span_start="273" span_end="277">any case study research project</mention>
+</mention> is never going to be large enough to qualify for <mention id="75" span_start="288" span_end="297">the use of
+<mention id="76" span_start="291" span_end="297">statistical inference -LRB- <mention id="77" span_start="294"
+                                                                                      span_end="294">Easton
+</mention> , <mention id="78" span_start="296" span_end="296" entity="79">2010</mention> -RRB-
+</mention>
+</mention> . ''
+        However , <mention id="79" span_start="302" span_end="302">advocates</mention> argue that <mention id="80"
+                                                                                                           span_start="305"
+                                                                                                           span_end="309">
+the most powerful case studies
+</mention> utilize <mention id="81" span_start="311" span_end="312">larger datasets</mention> and emphasizing <mention
+id="82" span_start="315" span_end="316" entity="61" antecedent="60">those studies
+</mention> `` increases <mention id="83" span_start="319" span_end="334">the generalizability and validity of
+<mention id="84" span_start="324" span_end="334" entity="62" antecedent="69">the findings -LRB-
+    <mention id="85" span_start="327" span_end="333">J. L. Jensen & Rodgers ,
+        <mention id="86" span_start="333" span_end="333">2001</mention>
+    </mention>
+    -RRB-
+</mention>
+</mention> . ''
+        -LRB- <mention id="87" span_start="338" span_end="338">Lee</mention> , <mention id="88" span_start="340"
+                                                                                        span_end="340">1989
+</mention> -RRB- proposes that <mention id="89" span_start="344" span_end="344">generalizability
+</mention> can be increased by making <mention id="90" span_start="350" span_end="350">confirming</mention> <mention
+id="91" span_start="351" span_end="361">observations `` when <mention id="92" span_start="354" span_end="355">the
+    theory
+</mention> is tested on
+<mention id="93" span_start="359" span_end="361">other empirical circumstances</mention>
+</mention> . ''
+        When <mention id="94" span_start="365" span_end="366" entity="95">a topic</mention> has <mention id="95"
+                                                                                                         span_start="368"
+                                                                                                         span_end="372">
+very little literature surrounding
+<mention id="96" span_start="372" span_end="372" entity="95" antecedent="94">it</mention>
+</mention> , `` <mention id="97" span_start="375" span_end="377">case research strategy
+</mention> is well-suited to capturing <mention id="98" span_start="382" span_end="385">the knowledge of
+<mention id="99" span_start="385" span_end="385">practitioners</mention>
+</mention> and developing <mention id="100" span_start="388" span_end="390">theories from
+<mention id="101" span_start="390" span_end="390" entity="95" antecedent="96">it</mention>
+</mention> '' according to <mention id="103" span_start="394" span_end="405">
+<mention id="102" span_start="394" span_end="397">-LRB- Benbasat ,
+    <mention id="104" span_start="397" span_end="397">Goldstein</mention>
+</mention>
+, & <mention id="105" span_start="400" span_end="400">Mead</mention> , <mention id="106" span_start="402"
+                                                                                span_end="402">1987
+</mention> -RRB- So quite
+</mention> simply , if <mention id="107" span_start="409" span_end="409" entity="5" antecedent="31">we
+</mention> are not in <mention id="108" span_start="413" span_end="418">a position to conduct
+<mention id="109" span_start="417" span_end="418">scientific experiments</mention>
+</mention> , <mention id="110" span_start="420" span_end="429">conduction case studies using
+<mention id="111" span_start="424" span_end="429">a very significant number of
+    <mention id="112" span_start="429" span_end="429">entities</mention>
+</mention>
+</mention> is <mention id="113" span_start="431" span_end="437">a well-supported methodology in
+<mention id="114" span_start="435" span_end="437" entity="64" antecedent="63">software engineering research</mention>
+</mention> , despite <mention id="115" span_start="440" span_end="444">some criticism in
+<mention id="116" span_start="443" span_end="444">other fields</mention>
+</mention> .
+        In <mention id="117" span_start="447" span_end="448" entity="118">this dissertation</mention> , <mention
+id="118" span_start="450" span_end="450" entity="5" antecedent="107">we
+</mention> chose <mention id="119" span_start="452" span_end="453" entity="95" antecedent="96">this route</mention> .
+        So <mention id="120" span_start="456" span_end="456" entity="5" antecedent="118">we
+</mention> set out to acquire <mention id="121" span_start="461" span_end="480">a comprehensive dataset that would
+provide the potential to offer <mention id="122" span_start="471" span_end="471">insights</mention> into
+<mention id="123" span_start="473" span_end="480">numerous sources of
+    <mention id="124" span_start="476" span_end="480">software engineering delays and hurdles</mention>
+</mention>
+</mention> .
+        As <mention id="126" span_start="483" span_end="493">
+<mention id="125" span_start="483" span_end="483" entity="5" antecedent="120">our</mention>
+attempts to acquire <mention id="127" span_start="487" span_end="490">empirical event log data</mention> from
+<mention id="128" span_start="492" span_end="493">corporate settings</mention>
+</mention> were politely denied and <mention id="129" span_start="498" span_end="500">a few times
+</mention> mocked , <mention id="130" span_start="503" span_end="503" entity="5" antecedent="120">we
+</mention> sought <mention id="131" span_start="505" span_end="507">open source data</mention> .
+<mention id="132" span_start="509" span_end="509" entity="5" antecedent="130">We</mention> discovered that <mention
+id="133" span_start="512" span_end="538">the requirements repository of
+<mention id="134" span_start="516" span_end="538" entity="23" antecedent="22">the one of
+    <mention id="135" span_start="519" span_end="538">the most significant open source software development -LRB- <mention
+            id="136" span_start="527" span_end="527">OSSD
+    </mention> -RRB- organizations , the Apache Software Foundation -LRB- <mention id="137" span_start="536"
+                                                                                   span_end="536">Apache
+    </mention> -RRB- ,
+    </mention>
+</mention>
+</mention> is available to <mention id="138" span_start="542" span_end="546">the public in
+<mention id="139" span_start="545" span_end="546">read-only form</mention>
+</mention> .
+<mention id="140" span_start="548" span_end="548" entity="5" antecedent="132">We</mention> argue that <mention id="143"
+                                                                                                               span_start="551"
+                                                                                                               span_end="558">
+<mention id="142" span_start="551" span_end="554">
+    <mention id="141" span_start="551" span_end="551">their</mention>
+    ~
+    <mention id="145" span_start="553" span_end="554">
+        <mention id="144" span_start="553" span_end="553">500,000</mention>
+        tickets
+    </mention>
+</mention>
+and
+<mention id="146" span_start="556" span_end="558">nearly <mention id="147" span_start="557" span_end="557">450</mention> teams
+</mention>
+</mention> is <mention id="148" span_start="560" span_end="579">an usually large sample size for
+<mention id="150" span_start="566" span_end="573">
+    <mention id="149" span_start="566" span_end="568">software engineering research</mention>
+    and therefore
+    <mention id="151" span_start="571" span_end="573">the ideal dataset</mention>
+</mention>
+to acquire in
+<mention id="152" span_start="577" span_end="579" entity="153">a single effort</mention>
+</mention> .
+<mention id="153" span_start="581" span_end="583" entity="153" antecedent="152">This acquisition effort
+</mention> is detailed in <mention id="154" span_start="587" span_end="588">chapter
+<mention id="155" span_start="588" span_end="588">3</mention>
+</mention> .
+<mention id="156" span_start="590" span_end="590" entity="5" antecedent="140">We
+</mention> acknowledge that much of <mention id="158" span_start="595" span_end="596" entity="62" antecedent="84">
+<mention id="157" span_start="595" span_end="595" entity="5" antecedent="156">our</mention>
+findings
+</mention> will carry <mention id="159" span_start="599" span_end="601">much greater weight</mention> with <mention
+id="160" span_start="603" span_end="614" entity="161">the less structured , volunteer dependent and sometimes
+unconventional open source community
+</mention> instead of <mention id="161" span_start="617" span_end="623" entity="161" antecedent="160">the software
+engineering community as
+<mention id="162" span_start="622" span_end="623">a whole</mention>
+</mention> .
+        However , <mention id="163" span_start="627" span_end="628">some findings
+</mention> might also apply more broadly .
+<mention id="164" span_start="635" span_end="635" entity="153" antecedent="153">It</mention> was established at <mention
+id="165" span_start="639" span_end="665">Microsoft that
+<mention id="166" span_start="641" span_end="648">tickets written by
+    <mention id="167" span_start="644" span_end="648">the more experienced team members</mention>
+</mention>
+were met with
+<mention id="168" span_start="652" span_end="665">more confidence -LRB-
+    <mention id="169" span_start="655" span_end="664">Guo ,
+        <mention id="171" span_start="657" span_end="662">
+            <mention id="170" span_start="657" span_end="660">Zimmermann , <mention id="172" span_start="659"
+                                                                                    span_end="659">Nagappan
+            </mention> ,
+            </mention>
+            &
+            <mention id="173" span_start="662" span_end="662">Murphy</mention>
+        </mention>
+        ,
+        <mention id="174" span_start="664" span_end="664" entity="79" antecedent="78">2010</mention>
+    </mention>
+    -RRB-
+</mention>
+</mention> .
+        In <mention id="175" span_start="668" span_end="669">other words</mention> , <mention id="176" span_start="671"
+                                                                                              span_end="672">experience
+level
+</mention> influences <mention id="177" span_start="674" span_end="674">success</mention> in <mention id="178"
+                                                                                                      span_start="676"
+                                                                                                      span_end="677">
+requirements writing
+</mention> .
+        In <mention id="179" span_start="680" span_end="681">chapter
+<mention id="180" span_start="681" span_end="681">1</mention>
+</mention> <mention id="181" span_start="682" span_end="682" entity="5" antecedent="156">we
+</mention> were able to verify <mention id="182" span_start="687" span_end="688">this principle
+</mention> also applies in <mention id="183" span_start="692" span_end="695" entity="184">the many Apache teams
+</mention> as well .
+        In <mention id="184" span_start="700" span_end="700">contrast</mention> , <mention id="186" span_start="702"
+                                                                                           span_end="707">
+<mention id="185" span_start="702" span_end="702" entity="5" antecedent="181">our</mention>
+findings with
+<mention id="187" span_start="705" span_end="707">regard to
+    <mention id="188" span_start="707" span_end="707">volunteerism</mention>
+</mention>
+</mention> are likely to be heavily influenced by <mention id="189" span_start="715" span_end="719">the unorthodox
+nature of
+<mention id="190" span_start="719" span_end="719" entity="191">OSSD</mention>
+</mention> .
+        However , <mention id="191" span_start="723" span_end="724">much literature</mention> supports <mention id="192"
+                                                                                                                span_start="726"
+                                                                                                                span_end="727">
+the idea
+</mention> that <mention id="193" span_start="729" span_end="731">highly motivated developers</mention> make <mention
+id="194" span_start="733" span_end="735">more productive employees
+</mention> .
+        Could <mention id="195" span_start="738" span_end="743">the self-driven motivators of
+<mention id="196" span_start="742" span_end="743">OSSD work</mention>
+</mention> possibly parallel <mention id="197" span_start="746" span_end="759">some of
+<mention id="198" span_start="748" span_end="759" entity="61" antecedent="82">the studies on how best to drive <mention
+        id="199" span_start="755" span_end="757">software team members
+</mention> to excel
+</mention>
+</mention> ?
+<mention id="200" span_start="761" span_end="761" entity="5" antecedent="181">We</mention> also argue that if <mention
+id="202" span_start="766" span_end="767">
+<mention id="201" span_start="766" span_end="766" entity="5" antecedent="200">our</mention>
+work
+</mention> primarily applies to <mention id="203" span_start="771" span_end="771" entity="191" antecedent="190">OSSD
+</mention> , <mention id="204" span_start="773" span_end="773">this</mention> is still <mention id="205"
+                                                                                                span_start="776"
+                                                                                                span_end="778">a
+significant contribution
+</mention> as <mention id="206" span_start="780" span_end="780" entity="191" antecedent="203">OSSD
+</mention> is vital to <mention id="207" span_start="784" span_end="791" entity="208">the industry as
+<mention id="208" span_start="787" span_end="791">a whole for
+    <mention id="209" span_start="790" span_end="791">many reasons</mention>
+</mention>
+</mention> .
+<mention id="210" span_start="793" span_end="794">The web</mention> may have been cast in <mention id="211"
+                                                                                                   span_start="800"
+                                                                                                   span_end="828">the
+iron shackles designed by <mention id="212" span_start="805" span_end="805">MSFT</mention> from
+<mention id="213" span_start="807" span_end="828">the start had
+    <mention id="215" span_start="810" span_end="813">
+        <mention id="214" span_start="810" span_end="811" entity="215">Apache 's</mention>
+        original project
+    </mention>
+    -LRB- <mention id="216" span_start="815" span_end="818">the Apache Web Server</mention> -RRB- not been made free to
+    <mention id="217" span_start="825" span_end="828">the public in
+        <mention id="218" span_start="828" span_end="828">1995</mention>
+    </mention>
+</mention>
+</mention> .
+        In <mention id="219" span_start="831" span_end="832">recent years</mention> , <mention id="220" span_start="834"
+                                                                                               span_end="836"
+                                                                                               entity="221">major
+software organizations
+</mention> deliberately turn over <mention id="221" span_start="840" span_end="845">some of
+<mention id="223" span_start="842" span_end="845" entity="1" antecedent="0">
+    <mention id="222" span_start="842" span_end="842" entity="221" antecedent="220">their</mention>
+    greatest infrastructure projects
+</mention>
+</mention> to <mention id="224" span_start="847" span_end="847" entity="215" antecedent="214">Apache
+</mention> so that , not only can <mention id="225" span_start="854" span_end="855">the rest</mention> of <mention
+id="226" span_start="857" span_end="858" entity="227">the world
+</mention> utilize <mention id="227" span_start="860" span_end="870">these invaluable tools but so that <mention
+        id="228" span_start="866" span_end="866">volunteers
+</mention> might help
+<mention id="229" span_start="869" span_end="870" entity="1" antecedent="0">these projects</mention>
+</mention> evolve .
+<mention id="230" span_start="873" span_end="873">Facebook</mention> donated <mention id="231" span_start="875"
+                                                                                      span_end="877">Hive and
+<mention id="232" span_start="877" span_end="877" entity="233">Cassandra</mention>
+</mention> , <mention id="233" span_start="879" span_end="879">Yahoo</mention> donated <mention id="235"
+                                                                                                span_start="881"
+                                                                                                span_end="883"
+                                                                                                entity="221"
+                                                                                                antecedent="222">
+<mention id="234" span_start="881" span_end="881">Hadoop</mention>
+and
+<mention id="236" span_start="883" span_end="883">Adobe</mention>
+</mention> donated <mention id="237" span_start="885" span_end="885">Flex</mention> , just to name a few .
+<mention id="238" span_start="893" span_end="897" entity="227" antecedent="226">The world of
+<mention id="239" span_start="896" span_end="897">big data</mention>
+</mention> is quite dependent on <mention id="242" span_start="902" span_end="919">
+<mention id="241" span_start="902" span_end="909" entity="1" antecedent="229">
+    <mention id="240" span_start="902" span_end="903" entity="215" antecedent="214">Apache 's</mention>
+    clustering framework projects
+    <mention id="243" span_start="907" span_end="909">Hadoop and Spark</mention>
+</mention>
+or
+<mention id="245" span_start="911" span_end="919">
+    <mention id="244" span_start="911" span_end="912" entity="215" antecedent="214">Apache 's</mention>
+    NoSQL stores such as <mention id="246" span_start="917" span_end="917" entity="233" antecedent="232">Cassandra
+</mention> or Couchbase
+</mention>
+</mention> .
+        So <mention id="247" span_start="922" span_end="931">any improvement in
+<mention id="248" span_start="925" span_end="931">the processes that
+    <mention id="249" span_start="928" span_end="930" entity="184" antecedent="183">these <mention id="250"
+                                                                                                   span_start="929"
+                                                                                                   span_end="929"
+                                                                                                   entity="191"
+                                                                                                   antecedent="203">OSSD
+    </mention> teams
+    </mention>
+    choose
+</mention>
+</mention> will only improve <mention id="252" span_start="935" span_end="939">
+<mention id="251" span_start="935" span_end="938" entity="208" antecedent="207">the entire industry 's</mention>
+path
+</mention> forward in <mention id="253" span_start="942" span_end="943">countless ways</mention> .
+<mention id="254" span_start="945" span_end="946" entity="118" antecedent="117">This dissertation
+</mention> is laid out as such .
+<mention id="255" span_start="953" span_end="954">Chapter
+<mention id="256" span_start="954" span_end="954" entity="23" antecedent="22">one</mention>
+</mention> focuses on <mention id="257" span_start="957" span_end="963">the beginning of
+<mention id="259" span_start="960" span_end="963">
+    <mention id="258" span_start="960" span_end="962">a requirement 's</mention>
+    existence
+</mention>
+</mention> as <mention id="260" span_start="965" span_end="965" entity="5" antecedent="156">we</mention> survey <mention
+id="261" span_start="967" span_end="973">the many contribution levels of
+<mention id="262" span_start="972" span_end="973" entity="263">Apache participants</mention>
+</mention> .
+        After describing <mention id="263" span_start="977" span_end="989">data <mention id="264" span_start="978"
+                                                                                         span_end="978" entity="5"
+                                                                                         antecedent="260">we
+</mention> have on
+<mention id="265" span_start="981" span_end="987">the contributions from
+    <mention id="266" span_start="984" span_end="987">the ~
+        <mention id="268" span_start="986" span_end="987">
+            <mention id="267" span_start="986" span_end="986">80,000</mention>
+            participants
+        </mention>
+    </mention>
+</mention>
+at
+<mention id="269" span_start="989" span_end="989" entity="215" antecedent="214">Apache</mention>
+</mention> , <mention id="270" span_start="991" span_end="991" entity="5" antecedent="260">we</mention> address <mention
+id="271" span_start="993" span_end="995" entity="272">some research questions
+</mention> regarding how <mention id="273" span_start="998" span_end="1002">
+<mention id="272" span_start="998" span_end="1000">a participant 's</mention>
+experience level
+</mention> influences <mention id="274" span_start="1004" span_end="1024">the types of
+<mention id="276" span_start="1007" span_end="1024">
+    <mention id="275" span_start="1007" span_end="1007">requirements</mention>
+    <mention id="277" span_start="1008" span_end="1008" entity="272" antecedent="271">they</mention> tend to submit in <mention
+        id="278" span_start="1013" span_end="1013">addition
+</mention> to
+    <mention id="279" span_start="1015" span_end="1024">the finding on
+        <mention id="280" span_start="1018" span_end="1024">the effectiveness of these requirements mentioned
+            <mention id="281" span_start="1024" span_end="1024">previously</mention>
+        </mention>
+    </mention>
+</mention>
+</mention> .
+<mention id="282" span_start="1026" span_end="1027">Chapter two</mention> focuses on how <mention id="283"
+                                                                                                  span_start="1031"
+                                                                                                  span_end="1031"
+                                                                                                  entity="284">tickets
+</mention> are distributed throughout <mention id="284" span_start="1035" span_end="1036">the team</mention> .
+<mention id="285" span_start="1038" span_end="1038" entity="5" antecedent="264">We</mention> found that <mention
+id="286" span_start="1041" span_end="1046" entity="263" antecedent="262">the participants that create
+<mention id="287" span_start="1045" span_end="1046" entity="284" antecedent="283">the tickets</mention>
+</mention> tend to have <mention id="288" span_start="1050" span_end="1067">a better track record for finding
+<mention id="289" span_start="1056" span_end="1067">an owner that is going to complete <mention id="290"
+                                                                                                span_start="1063"
+                                                                                                span_end="1064">the work
+</mention> than
+    <mention id="291" span_start="1066" span_end="1067" entity="292">other participants</mention>
+</mention>
+</mention> .
+        Generally , <mention id="292" span_start="1071" span_end="1080" entity="284" antecedent="287">the tickets that
+were volunteered for -LRB- <mention id="293" span_start="1078" span_end="1078">A.K.A.</mention> self-assigned -RRB-
+</mention> have been completed at <mention id="294" span_start="1085" span_end="1095">a higher rate than
+<mention id="295" span_start="1089" span_end="1095">those that were assigned to
+    <mention id="296" span_start="1094" span_end="1095" entity="292" antecedent="291">other participants</mention>
+</mention>
+</mention> .
+<mention id="297" span_start="1097" span_end="1097" entity="5" antecedent="285">We</mention> also discovered <mention
+id="298" span_start="1100" span_end="1104">a major pattern of
+<mention id="299" span_start="1104" span_end="1104">delay</mention>
+</mention> .
+<mention id="300" span_start="1106" span_end="1117" entity="284" antecedent="292">Tickets that are volunteered for but
+not completed almost directly after
+<mention id="301" span_start="1117" span_end="1117">being</mention>
+</mention> volunteered for take <mention id="302" span_start="1121" span_end="1121">five</mention> to <mention id="303"
+                                                                                                               span_start="1123"
+                                                                                                               span_end="1123">
+ten
+</mention> times as long , depending on <mention id="305" span_start="1130" span_end="1135">
+<mention id="304" span_start="1130" span_end="1132">the ticket type</mention>
+and
+<mention id="306" span_start="1134" span_end="1135">other factors</mention>
+</mention> , to complete than <mention id="307" span_start="1140" span_end="1150" entity="284" antecedent="292">tickets
+whose <mention id="308" span_start="1142" span_end="1143">voluntary owner</mention> completes
+<mention id="309" span_start="1145" span_end="1150">the task in that same sitting</mention>
+</mention> .
+<mention id="310" span_start="1152" span_end="1152" entity="5" antecedent="297">We</mention> provide <mention id="311"
+                                                                                                              span_start="1154"
+                                                                                                              span_end="1162">
+extensive analysis and recommendations regarding
+<mention id="312" span_start="1159" span_end="1162">this delay causing scenario</mention>
+</mention> .
+        In <mention id="313" span_start="1165" span_end="1183">chapter <mention id="314" span_start="1166"
+                                                                                span_end="1166">three
+</mention>
+<mention id="315" span_start="1167" span_end="1167" entity="5" antecedent="310">we</mention> not only
+<mention id="316" span_start="1170" span_end="1183">detail how <mention id="317" span_start="1172" span_end="1172"
+                                                                        entity="5" antecedent="315">we
+</mention> acquired <mention id="318" span_start="1174" span_end="1176">this data set</mention> but also describe
+    <mention id="319" span_start="1180" span_end="1183" entity="320">a pattern mining platform</mention>
+</mention>
+</mention> <mention id="320" span_start="1184" span_end="1184" entity="5" antecedent="315">we
+</mention> built to facilitate <mention id="321" span_start="1188" span_end="1193">repeatable and scalable pattern
+mining experiments
+</mention> utilizing <mention id="322" span_start="1195" span_end="1198">the pattern mining algorithms
+</mention> provided by <mention id="323" span_start="1201" span_end="1205">the open source tool SPMF</mention> .
+        With <mention id="324" span_start="1208" span_end="1209" entity="320" antecedent="319">this platform
+</mention> , <mention id="325" span_start="1211" span_end="1211" entity="5" antecedent="315">we
+</mention> were able to study <mention id="327" span_start="1216" span_end="1220">
+<mention id="326" span_start="1216" span_end="1217" entity="327">each team</mention>
+and
+<mention id="329" span_start="1219" span_end="1220">
+    <mention id="328" span_start="1219" span_end="1219" entity="329">their</mention>
+    processes
+</mention>
+</mention> individually , provided <mention id="330" span_start="1224" span_end="1224" entity="329" antecedent="328">
+they
+</mention> had <mention id="331" span_start="1226" span_end="1234">enough tickets to justify
+<mention id="332" span_start="1230" span_end="1234">the association rules <mention id="333" span_start="1233"
+                                                                                   span_end="1233" entity="5"
+                                                                                   antecedent="320">we
+</mention> sought
+</mention>
+</mention> .
+<mention id="335" span_start="1236" span_end="1237">
+<mention id="334" span_start="1236" span_end="1236" entity="5" antecedent="333">Our</mention>
+objective
+</mention> was to establish <mention id="337" span_start="1241" span_end="1257">
+<mention id="336" span_start="1241" span_end="1251">various measures of
+    <mention id="338" span_start="1244" span_end="1251">effectiveness -LRB- especially with
+        <mention id="339" span_start="1248" span_end="1250">regard to
+            <mention id="340" span_start="1250" span_end="1250">completion</mention>
+        </mention>
+        -RRB-
+    </mention>
+</mention>
+and
+<mention id="341" span_start="1253" span_end="1257">various indicators for
+    <mention id="342" span_start="1256" span_end="1257">process choices</mention>
+</mention>
+</mention> for <mention id="343" span_start="1259" span_end="1260" entity="327" antecedent="326">each team</mention> .
+<mention id="344" span_start="1262" span_end="1262" entity="5" antecedent="334">We
+</mention> were especially interested in how <mention id="345" span_start="1268" span_end="1271">processes of
+<mention id="346" span_start="1270" span_end="1271" entity="184" antecedent="249">the teams</mention>
+</mention> vary in <mention id="348" span_start="1274" span_end="1286">
+<mention id="347" span_start="1274" span_end="1282">requirements updates , assignment changes -LRB- <mention id="349"
+                                                                                                             span_start="1280"
+                                                                                                             span_end="1281">
+    especially abandonment
+</mention> -RRB-
+</mention>
+and
+<mention id="350" span_start="1284" span_end="1286">exposure to
+    <mention id="351" span_start="1286" span_end="1286">volunteerism</mention>
+</mention>
+</mention> .
+        When comparing <mention id="352" span_start="1290" span_end="1291" entity="184" antecedent="346">these teams
+</mention> by <mention id="354" span_start="1293" span_end="1295" entity="355">
+<mention id="353" span_start="1293" span_end="1293">their</mention>
+completion measures
+</mention> found <mention id="355" span_start="1297" span_end="1299">a negative association</mention> with <mention
+id="357" span_start="1301" span_end="1308" entity="358">
+<mention id="356" span_start="1301" span_end="1302">requirements changes</mention>
+and
+<mention id="358" span_start="1304" span_end="1308">an even stronger negative association</mention>
+</mention> with <mention id="359" span_start="1310" span_end="1321">the rate of
+<mention id="360" span_start="1313" span_end="1321">participants removing <mention id="361" span_start="1315"
+                                                                                   span_end="1315" entity="358"
+                                                                                   antecedent="357">themselves
+</mention> as
+    <mention id="362" span_start="1317" span_end="1321">ticket owners -LRB- <mention id="363" span_start="1320"
+                                                                                     span_end="1320">abandonment
+    </mention> -RRB-
+    </mention>
+</mention>
+</mention> .
+<mention id="364" span_start="1323" span_end="1325">Stronger volunteerism indicators
+</mention> are associated with <mention id="365" span_start="1329" span_end="1341">greater completion rates but not
+nearly as much with
+<mention id="366" span_start="1338" span_end="1341" entity="1" antecedent="229">the very largest projects</mention>
+</mention> to <mention id="367" span_start="1343" span_end="1344">the point</mention> that <mention id="368"
+                                                                                                    span_start="1346"
+                                                                                                    span_end="1346"
+                                                                                                    entity="5"
+                                                                                                    antecedent="344">we
+</mention> suggest <mention id="369" span_start="1348" span_end="1352">the effectiveness of
+<mention id="370" span_start="1351" span_end="1352">occasional delegation</mention>
+</mention> may be <mention id="371" span_start="1355" span_end="1361">a factor in
+<mention id="372" span_start="1358" span_end="1361" entity="1" antecedent="0">the biggest projects succeeding</mention>
+</mention> .
+<mention id="373" span_start="1363" span_end="1363" entity="5" antecedent="368">We</mention> then wrapped up <mention
+id="374" span_start="1367" span_end="1373">this last investigation of
+<mention id="376" span_start="1371" span_end="1373">
+    <mention id="375" span_start="1371" span_end="1371" entity="5" antecedent="373">our</mention>
+    case study
+</mention>
+</mention> by highlighting <mention id="377" span_start="1376" span_end="1378">some process indicators
+</mention> measures <mention id="378" span_start="1380" span_end="1380">that</mention> are common in <mention id="379"
+                                                                                                              span_start="1384"
+                                                                                                              span_end="1392"
+                                                                                                              entity="184"
+                                                                                                              antecedent="352">
+the teams that <mention id="380" span_start="1387" span_end="1387">score</mention> highest on
+<mention id="382" span_start="1390" span_end="1392" entity="355" antecedent="354">
+    <mention id="381" span_start="1390" span_end="1390" entity="5" antecedent="375">our</mention>
+    completion measures
+</mention>
+</mention> .
