@@ -1,0 +1,34 @@
+<root>
+    <mention id="0" span_start="0" span_end="13" entity="1">Alex Jones , the conspiracist at
+        <mention id="1" span_start="6" span_end="12">the helm of
+            <mention id="2" span_start="9" span_end="12">the alt-news outlet InfoWars</mention>
+        </mention>
+        ,
+    </mention>
+    used
+    <mention id="3" span_start="15" span_end="17">an unusual defense</mention>
+    in
+    <mention id="4" span_start="19" span_end="21">a custody
+    hearing
+    </mention> in <mention id="5" span_start="23" span_end="23">Texas</mention>
+    <mention id="6" span_start="24" span_end="25">last week</mention> .
+    <mention id="8" span_start="27" span_end="28">
+        <mention id="7" span_start="27" span_end="27" entity="1" antecedent="0">His</mention>
+        ex-wife
+    </mention>
+    had accused
+    <mention id="9" span_start="31" span_end="36" entity="1" antecedent="7">him of being unstable and
+    dangerous
+    </mention> , citing
+    <mention id="11" span_start="39" span_end="42">
+        <mention id="10" span_start="39" span_end="41" entity="1" antecedent="0">Mr. Jones 's</mention>
+        rants
+    </mention>
+    on
+    <mention id="13" span_start="44" span_end="47">
+        <mention id="12" span_start="44" span_end="44" entity="1" antecedent="7">his</mention>
+        daily call-in show
+    </mention>
+    .
+
+</root>
