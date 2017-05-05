@@ -407,7 +407,7 @@ xml.etree.ElementTree.tostringlist
 # test_xml('samples/weirdTest.xml')
 # test_xml('samples/out2.xml')
 # test_xml('samples/out2.xml')
-test_xml('samples/out4.xml')
+# test_xml('samples/out4.xml')
 # test_xml('samples/weirdTest.xml')
 
 # print " now: " + strip_extra_white_space("jkhh    kjh k jh \n \n kgjhgj ")
